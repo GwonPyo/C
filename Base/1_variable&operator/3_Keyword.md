@@ -24,7 +24,7 @@ int main(void)
 
 만약 위 코드에서 <b>#define _CRT_SECURE_NO_WARNINGS</b>없이 visual studio를 이용해 디버깅을 하면 다음과 같은 에러가 발생한다. 
 
-(사진)
+![scanf 에러](https://user-images.githubusercontent.com/85156021/182304999-f8f40563-b241-444e-ba97-10fb9aa90db6.PNG)
 
 #include <studio.h> 밑에 써도 에러가 발생하니 맨 위에 쓰도록 하자.
 
