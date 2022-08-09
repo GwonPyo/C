@@ -51,7 +51,7 @@ int main(int argc, char* argv[])
 
 해당 소스코드를 컴파일 시키고 나온 exe파일(main_func.exe)을 cmd로 실행시켜보면 다음과 같은 결과가 나온다.
 
-(사진 삽입)
+![image](https://user-images.githubusercontent.com/85156021/183777790-51fcce56-c7bb-4b1d-8e47-127f0a46cf32.png)
 
 main_func는 main_func.exe 파일을 실행하라는 명령이고, 해당 exe파일 실행시 전달된 문자열 개수와, 문자열 배열이 전달된다. <br>
 단, 이때 ""를 사용하면 문자열을 묶을 수 있다. <br>
