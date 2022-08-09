@@ -53,7 +53,7 @@ int main(int argc, char* argv[])
 
 ![image](https://user-images.githubusercontent.com/85156021/183777790-51fcce56-c7bb-4b1d-8e47-127f0a46cf32.png)
 
-main_func는 main_func.exe 파일을 실행하라는 명령이고, 해당 exe파일 실행시 전달된 문자열 개수와, 문자열 배열이 전달된다. <br>
+main_func는 main_func.exe 파일을 실행하라는 명령이고, 해당 <b>exe파일 실행시 전달된 문자열 개수와, 문자열 배열이 전달된다.</b> <br>
 단, 이때 ""를 사용하면 문자열을 묶을 수 있다. <br>
 예를 들어, main_func "Hi Main Function"이라고 입력하면 문자열 2로 입력된다.
 
