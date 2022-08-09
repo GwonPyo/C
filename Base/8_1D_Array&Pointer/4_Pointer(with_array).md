@@ -1,4 +1,4 @@
-<h2> <strong> 3. 배열과 포인터 </strong> </h2>
+<h2> <strong> 4. 배열과 포인터 </strong> </h2>
 
 <h3> <strong> (1) 배열과 포인터 </strong> </h3>
 
@@ -118,7 +118,6 @@ int main(void)
 	int* arr[] = { &num1, &num2, &num3 };
 	printf("%d %d %d", *arr[0], *arr[1], *arr[2]); // 0 1 2 출력
 }
-
 ```
 
 즉, 우리는 이를 이용해서 **문자열을 저장하는 배열**을 만들 수 있다.
@@ -131,5 +130,4 @@ int main(void)
 	char* arr[] = { "Hi", "C", "Language"};
 	printf("%s \n%s \n%s \n", arr[0], arr[1], arr[2]);
 }
-
 ```
