@@ -47,7 +47,7 @@ int main(void)
 
 위 코드를 실행하면 결과는 다음과 같다.
 
-(사진1)
+![입력버퍼 사진1](https://user-images.githubusercontent.com/85156021/183818094-bbb5ce4d-a9f8-4351-9c50-d549bc0a7208.PNG)
 
 위 코드의 문제는 ID를 입력할 때 남아있는 개행 문자를 이름을 입력 받을 때 받아준다는 것이다. <br>
 fgets는 \n 문자를 만나면 종료되는 함수이므로 개행 문자만 name에 저장되게 된다. <br>
@@ -82,4 +82,4 @@ int main(void)
 
 해당 기법을 사용하면 아래와 같이 정상적인 결과를 출력한다.
 
-(사진2)
+![image](https://user-images.githubusercontent.com/85156021/183818057-c74fb62c-c298-4554-b039-2bfa1649d84b.png)
