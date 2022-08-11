@@ -170,7 +170,7 @@ struct point points[2] = {
 	};
 ```
 
-<h3> <strong> (3) 구조체 포인터 </strong> </h3>
+<h3> <strong> (4) 구조체 포인터 </strong> </h3>
 
 구조체 포인터는 아래와 같이 선언 가능하다.
 
